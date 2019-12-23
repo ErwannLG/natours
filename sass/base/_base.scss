@@ -1,0 +1,18 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/* reset end */
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; // 16px is the default and we want 10px to be the reference
+}
+
+body {
+  box-sizing: border-box;
+}
